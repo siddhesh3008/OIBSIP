@@ -97,5 +97,5 @@ Develop a command-line weather application in Python that provides real-time wea
 #### Technologies
 - Python
 - Libraries: `requests`, `json`.
-- Weather API: [OpenWeather API](https://openweathermap.org/).
+- Weather API
 
