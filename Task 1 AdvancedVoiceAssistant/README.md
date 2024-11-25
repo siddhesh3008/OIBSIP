@@ -2,19 +2,6 @@
 
 A Python-based voice assistant designed to perform various tasks such as fetching the current time and date, retrieving weather updates, searching Wikipedia, and sending emails. This project demonstrates the integration of Speech Recognition, Natural Language Processing (NLP), and API-based task automation, offering a foundation for building custom, voice-controlled applications.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Contributors](#contributors)
-- [License](#license)
-
 ## Introduction
 
 The Advanced Voice Assistant is a versatile tool that leverages Python's capabilities for speech recognition and task automation. It can perform a wide range of tasks and is highly extendable, making it suitable for educational purposes, personal use, or as a starting point for more complex AI-driven assistants.
