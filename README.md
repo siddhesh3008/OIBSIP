@@ -36,66 +36,55 @@ Develop an advanced voice assistant using Python with natural language processin
 
 ---
 
-### 2. **BMI Calculator**
+### 2. BMI Calculator
+**Description:**  
+Create a graphical BMI (Body Mass Index) calculator with a user-friendly interface using Tkinter or PyQt. Features include:
 
-#### Description
-Create a command-line BMI calculator in Python to help users assess their health based on their body mass index (BMI).
+- Input for weight and height
+- BMI calculation and result visualization
+- Data storage for multiple users
+- Historical data viewing and trend analysis through statistics and graphs
 
-#### Features
-- Prompt the user for weight (in kilograms) and height (in meters).
-- Calculate BMI using the formula:
-  \[
-  \text{BMI} = \frac{\text{weight (kg)}}{\text{height (m)}^2}
-  \]
-- Categorize BMI into predefined health ranges:
-  - **Underweight**: BMI < 18.5
-  - **Normal weight**: 18.5 ≤ BMI < 24.9
-  - **Overweight**: 25 ≤ BMI < 29.9
-  - **Obesity**: BMI ≥ 30
-- Display the BMI result and health category.
+**Key Technologies Used:**
+- Tkinter / PyQt
+- Pandas (for data storage and analysis)
+- Matplotlib (for graph visualization)
+---
 
-#### Technologies
-- Python
-- Command-line application.
+### 3. Random Password Generator
+**Description:**  
+Develop an advanced password generator with a graphical user interface (GUI). Features include:
+
+- Options for password complexity (length, characters, etc.)
+- Adherence to security rules (uppercase, lowercase, numbers, symbols)
+- Clipboard integration for easy copying of generated passwords
+
+**Key Technologies Used:**
+- Tkinter / PyQt
+- random (for password generation)
+- pyperclip (for clipboard integration)
 
 ---
 
-### 3. **Simple Password Generator**
+### 4. Weather App
+**Description:**  
+Create a graphical weather app that provides detailed weather information, such as:
 
-#### Description
-Build a Python-based command-line password generator to create secure passwords based on user-defined criteria.
+- Current weather conditions
+- Hourly and daily forecasts
+- Wind speed
+- Visual elements (weather icons)
 
-#### Features
-- Generate passwords with:
-  - Letters (uppercase and lowercase).
-  - Numbers.
-  - Special symbols.
-- Allow users to specify:
-  - Password length.
-  - Inclusion of specific character types.
-- Ensure strong, random password generation for enhanced security.
+Users can input their location manually or use GPS for automatic detection.
 
-#### Technologies
-- Python
-- Libraries: `random`, `string`.
-
----
-
-### 4. **Weather App with JavaScript**
-
-#### Description
-Develop a command-line weather application in Python that provides real-time weather updates for user-specified locations using weather APIs.
-
-#### Features
-- Fetch current weather data for a given city or ZIP code.
-- Display:
-  - Temperature.
-  - Humidity.
-  - Weather conditions (e.g., clear, rain, snow).
-- Use APIs like OpenWeather for accurate weather information.
+**Key Technologies Used:**
+- Tkinter / PyQt
+- OpenWeather API (for fetching weather data)
+- Geopy (for GPS location detection)
 
 #### Technologies
 - Python
 - Libraries: `requests`, `json`.
 - Weather API
 
+---
